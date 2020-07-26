@@ -1,0 +1,35 @@
+  .book-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 10px;
+  }
+
+  .book-bg{
+    background-color: rgb(12, 12, 12);
+  }
+  
+  .book-title {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+  }
+  
+  .book-image-div {
+    max-width: 100%;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+  .book-desc {
+    font-size: 22px;
+    line-height: 1.1;
+    margin-top: -20rem;
+    margin-left:  20rem;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #868e96;
+  }
+  .book-text-div{
+      margin-top: 4rem !important;
+      margin-left: 25px;
+  }
