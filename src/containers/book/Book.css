@@ -1,35 +1,86 @@
-  .book-main {
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 10px;
+.book-main{
+   background-color: rgb(12, 12, 12);
+   padding: 2rem;
+   margin-top: 5rem;
+}
+  .book-main-div {
+    display: flex;
+    margin-top: 3rem;
   }
-
-  .book-bg{
-    background-color: rgb(12, 12, 12);
+  .book-text-div {
+    margin-left: 50px;
   }
   
-  .book-title {
+  .book-main-div > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  .book-image-div > img { 
+    margin-left: 10rem;
+  }
+  .book-heading {
     font-size: 40px;
-    line-height: 1.1;
-    margin-bottom: 2rem;
+    font-weight: 400;
+    margin-top: -2rem;
+    margin-left: -2rem;
   }
   
-  .book-image-div {
-    max-width: 100%;
-    height: auto;
-    margin-top: 3rem !important;
-  }
-  .book-desc {
-    font-size: 22px;
-    line-height: 1.1;
-    margin-top: -20rem;
-    margin-left:  20rem;
+  .book-text-subtitle{
+    color:#868E96;
+    margin-left: -15rem;
+    margin-bottom: 1rem;
+    font-size: 15px;
     text-align: justify;
     text-justify: inter-word;
-    color: #868e96;
+    margin-right: 5rem;
+    margin-top: 5rem;
   }
-  .book-text-div{
-      margin-top: 4rem !important;
+  .buy-book{
+    margin-left: 17rem;
+    color: white;
+  }
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .book-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .book-main{
+      padding: 10px;
+    }
+    .book-main-div {
+      flex-direction: column
+    }
+    .book-text-div {
+      margin-left: 0px;
+      margin: 20px;
+    }
+    .book-text {
+      font-size: 16px;
+    }
+    .book-heading {
+      font-size: 30px;
+      font-weight: 400;
+      margin-top: -1rem;
       margin-left: 25px;
+      margin-bottom: -2rem;
+    }
+    .book-text-subtitle {
+      font-size: 16px;
+      text-align: center;
+      padding-bottom: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .book-image-div {
+      order: -1;
+    }
+    .book-image-div > img { 
+      margin-left:55px;
+    }
+    .buy-book{
+      margin-left: 10rem;
+    }
   }
+  

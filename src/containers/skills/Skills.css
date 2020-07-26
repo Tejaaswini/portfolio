@@ -11,7 +11,7 @@
   margin-bottom: 30px;
 }
 
-.skills-image-div > img {
+.skills-image-div > img { 
   max-width: 100%;
   height: auto;
 }
@@ -56,9 +56,9 @@
   .skills-text-subtitle {
     font-size: 16px;
     text-align: center;
+    padding-bottom: 2rem;
   }
   .skills-image-div {
-    /* display: none; */
-    order: 2;
+    order: -1;
   }
 }

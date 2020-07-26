@@ -16,3 +16,10 @@
 .intro-hashtag{
     font-size: 45px;
 }
+@media (max-width: 768px) {
+    .intro-main{
+        margin-top: 3rem !important;
+        background-color: rgb(12, 12, 12);
+        height: 550px;
+    }
+  }

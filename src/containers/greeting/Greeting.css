@@ -81,4 +81,8 @@
   .greeting-main {
     display: block;
   }
+  .greeting-mainText{
+    text-align: center;
+    font-size: 25px !important;
+  }
 }

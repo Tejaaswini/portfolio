@@ -5,16 +5,19 @@ import "./Book.css";
 
 export default function Book() {
   return (
-    <div className="book-bg">
-      <Fade bottom duration={1000} distance="20px">
-        <div className="main" id="book">
-          <div className="book-main">
-            <div className="book-image-div">
-              <p className="book-title" align="center">Some Flexing ᕕ(¬ ͜ ¬)ᕗ </p>
-              <a href="https://www.shroffpublishers.com/books/9789352138852/" target="_blank"><img src={require("../../assets/images/book.jpg")} /></a>
-            </div>
-            <p className="book-desc">
-              Ever gone through hundred and ten resources for blockchain and still
+<div className="book-main" id="book">
+      <div className="book-main-div">
+        <Fade left duration={1000}>
+        <div className="book-image-div">
+          <img src={require("../../assets/images/book.jpg")}></img>
+          <a href="https://www.shroffpublishers.com/books/9789352138852/" target="_blank"><p className="buy-book">Buy me!</p></a>
+        </div>
+        </Fade>
+        <Fade right duration={1000}>
+        <div className="book-text-div">
+        <h1 className="book-heading">Some Flexing ᕕ(¬ ͜ ¬)ᕗ</h1>
+
+          <p className="book-text-subtitle">Ever gone through hundred and ten resources for blockchain and still
               not able to figure out where to start off. Well this book would lay
               the foundation for most of the concepts that you would require to at
               least get started somewhere and scratch the surface of this hyped
@@ -29,13 +32,14 @@ export default function Book() {
               humorous references to intriguing exercises, this book aims to not
               only make you feel comfortable with the technology but also
               confident enough to ponder more about it.
-            </p>
-            <div className="book-text-div">
-              <p> Buy Our book, fund our coffee!😋 <br/>(Click on the Book!)</p>
-            </div>
-          </div>
+              <br/>
+              <br/>
+              Buy our book, fund our coffee!! 😋
+              </p> 
         </div>
-      </Fade>
+        </Fade>
+      </div>
     </div>
+
   );
 }
