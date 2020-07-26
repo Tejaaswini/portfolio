@@ -31,5 +31,9 @@
     border-radius: 15px;
     height: 25rem !important;
     object-fit: cover;
+    align-items: center;
+  }
+  .vector-heading{
+    text-align: center;
   }
 }

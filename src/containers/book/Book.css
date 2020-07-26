@@ -63,7 +63,7 @@
       font-size: 25px;
       font-weight: 400;
       margin-top: -1rem;
-      margin-left: 45px;
+      margin-left: 100px;
       margin-bottom: -2rem;
     }
     .book-text-subtitle {
@@ -78,6 +78,7 @@
     }
     .book-image-div > img { 
       margin-left:55px;
+      align-items: center;
     }
     .buy-book{
       margin-left: 10rem;
