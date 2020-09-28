@@ -40,13 +40,24 @@ export default function socialMedia() {
           </a>
         ) : null}
 
-        {socialMediaLinks.gitlab ? (
+        {/* {socialMediaLinks.gitlab ? (
           <a
             href={socialMediaLinks.gitlab}
             className="icon-button gitlab"
             target="_blank"
           >
             <i className="fab fa-gitlab"></i>
+            <span></span>
+          </a>
+        ) : null} */}
+
+        {socialMediaLinks.medium ? (
+          <a
+            href={socialMediaLinks.medium}
+            className="icon-button medium"
+            target="_blank"
+          >
+            <i className="fab fa-medium"></i>
             <span></span>
           </a>
         ) : null}

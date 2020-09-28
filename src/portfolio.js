@@ -11,7 +11,8 @@ const socialMediaLinks = {
   github: "https://github.com/Tejaaswini",
   linkedin: "https://www.linkedin.com/in/tejaaswini-narendra-012b93153/",
   gmail: "tejnaren07@gmail.com",
-  gitlab: "https://gitlab.com/tejaaswini",
+  // gitlab: "https://gitlab.com/tejaaswini",
+  medium:"https://medium.com/@tejnaren07",
   dribble: "https://dribbble.com/tejnaren",
   instagram: "https://www.instagram.com/tej_naren/",
   twitter: "https://twitter.com/tejnaren07"
