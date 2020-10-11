@@ -69,10 +69,10 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Frontend Developer",  
+      role: "Frontend Developer Intern",  
       company: "Codemonk",
       companylogo: require("./assets/images/codemonk.png"),
-      date: "April 2020– Present",
+      date: "April 2020– September 2020",
       desc: "Building Complex applications using better technologies to cater easy usage of everyday things",
     },
     {
