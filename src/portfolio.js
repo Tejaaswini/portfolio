@@ -114,7 +114,7 @@ const projectSection = {
     {
       title: "Project Pragma",
       subtitle: "Final Year Project based on Ethereum that aims on P2P file transfer",
-      code_url: "https://github.com/Tejaaswini/Project-Pragma",
+      code_url: "https://project-pragma.herokuapp.com/",
     },
     {
       title: "Track Covid",
