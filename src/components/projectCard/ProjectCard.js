@@ -12,7 +12,7 @@ export default function ProjectCard({projectDetails}) {
 
           <div className="card-footer-button-div">
             <a href={projectDetails.code_url} target="_" class="project-button">
-              View Code
+              View Demo
             </a>
           </div>
         </div>
