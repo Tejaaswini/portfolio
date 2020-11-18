@@ -5,7 +5,7 @@
 
 .icon-button {
   margin-bottom: 10px;
-  margin-left: 1rem;
+  margin-left: 10px;
 }
 
 .socialMedia-title{
@@ -60,6 +60,9 @@
 .instagram i {
   background-color: #c13584;
 }
+.calendar i {
+  background-color: #ce8628;
+}
 
 /* Hover Transition */
 .twitter i:hover,
@@ -68,6 +71,7 @@
 .github i:hover,
 .linkedin i:hover,
 .dribble i:hover,
+.calendar i:hover,
 .instagram i:hover {
   background-color: black;
   transition: 0.3s ease-in;

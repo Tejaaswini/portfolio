@@ -14,6 +14,7 @@ const socialMediaLinks = {
   dribble: "https://dribbble.com/tejnaren",
   instagram: "https://www.instagram.com/tej_naren/",
   twitter: "https://twitter.com/tejnaren07",
+  calendly:"calendly.com/tejnaren",
 };
 
 const skillsSection = {
@@ -115,7 +116,7 @@ const workExperiences = {
 
 const projectSection = {
   title: "Fun Projects",
-  subtitle: "Playing around and experimenting cool stuff!!",
+  subtitle: "Playing around and experimenting cool stuff!!", 
 
   project: [
     {

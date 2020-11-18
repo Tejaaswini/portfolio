@@ -94,6 +94,16 @@ export default function socialMedia() {
             <span></span>
           </a>
         ) : null}
+        {socialMediaLinks.calendly ? (
+          <a
+            href={socialMediaLinks.calendly}
+            className="icon-button calendar"
+            target="_blank"
+          >
+            <i className="fa fa-calendar"></i>
+            <span></span>
+          </a>
+        ) : null}
       </div>
     </>
   );
