@@ -14,7 +14,7 @@ const socialMediaLinks = {
   dribble: "https://dribbble.com/tejnaren",
   instagram: "https://www.instagram.com/tej_naren/",
   twitter: "https://twitter.com/tejnaren07",
-  calendly:"calendly.com/tejnaren",
+  calendly:"https://calendly.com/tejnaren",
 };
 
 const skillsSection = {
