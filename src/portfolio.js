@@ -15,6 +15,7 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/tej_naren/",
   twitter: "https://twitter.com/tejnaren07",
   calendly:"https://calendly.com/tejnaren",
+  codepen:"https://codepen.io/tejaaswini",
 };
 
 const skillsSection = {

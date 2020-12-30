@@ -104,6 +104,16 @@ export default function socialMedia() {
             <span></span>
           </a>
         ) : null} */}
+        {socialMediaLinks.codepen ? (
+          <a
+            href={socialMediaLinks.codepen}
+            className="icon-button github"
+            target="_blank"
+          >
+            <i className="fab fa-codepen"></i>
+            <span></span>
+          </a>
+        ) : null}
       </div>
     </>
   );
