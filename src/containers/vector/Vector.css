@@ -19,13 +19,12 @@
   font-size: 40px;
 }
 .button-view{
-  margin-left: 42rem;
+  /* margin-left: 42rem; */
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-  .button-view{
-    margin-left: 9rem;
-  }
   .vector img{
     width: 20rem !important;
     border-radius: 15px;

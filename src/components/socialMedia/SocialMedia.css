@@ -1,6 +1,8 @@
 .social-media-div {
   font-size: 2em;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
+  display: flex;
+  justify-content: center;
 }
 
 .icon-button {
@@ -11,7 +13,7 @@
 .socialMedia-title{
   font-size: 40px !important;
   margin-top: -7rem;
-  margin-left: 14rem;
+  text-align: center;
 }
 
 .icon-button i {

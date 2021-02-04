@@ -69,10 +69,15 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Platform Developer",
+      company: "Follo Platforms",
+      date: "Febuary 2021 - Present",
+    },
+    {
       role: "Blockchain Developer Intern",
       company: "Tezos India",
       companylogo: require("./assets/images/tezos.jpg"),
-      date: "November 2020 – Present",
+      date: "November 2020 – January 2021",
     },
     {
       role: "Frontend Developer Intern",
@@ -104,13 +109,6 @@ const workExperiences = {
       date: "June 2018 – November 2018",
       desc:
         "Worked on a project revolving supply chain, a Farm-to-Fork model on Hyperledger Fabric",
-    },
-    {
-      role: "Blockchain Intern",
-      company: "QTC Plus",
-      companylogo: require("./assets/images/qtc.png"),
-      date: "June 2018 – November 2018",
-      desc: "Worked on package tracing project based on Ethereum platform",
     },
   ],
 };
