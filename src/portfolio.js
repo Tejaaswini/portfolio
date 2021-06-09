@@ -7,7 +7,7 @@
 
 const socialMediaLinks = {
   github: "https://github.com/Tejaaswini",
-  linkedin: "https://www.linkedin.com/in/tejaaswini-narendra-012b93153/",
+  linkedin: "https://www.linkedin.com/in/tejaaswini",
   gmail: "tejnaren07@gmail.com",
   // gitlab: "https://gitlab.com/tejaaswini",
   medium: "https://medium.com/@tejnaren07",
